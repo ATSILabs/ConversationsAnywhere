@@ -737,7 +737,7 @@ welcome
 
 .welcome-area .header-text {
   position: absolute;
-  top: 50%;
+  top: 45%;
   transform: translateY(-55%);
   text-align: center;
   width: 100%;
@@ -917,7 +917,7 @@ features
 .home-feature {
   padding-bottom: 0px;
   padding-top: 30px;
-  margin-top: -220px;
+  margin-top: -232px;
   z-index: 9;
 }
 
@@ -952,6 +952,7 @@ parallax & home seperator
   background-size: cover;
   background-position: center center;
   background-image: url(../images/work-process-bg.png);
+  /* background: #343a40; */
   z-index: 2;
   top: -20%;
   left: -20%;
@@ -1018,6 +1019,7 @@ parallax & home seperator
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   text-align: center;
+  min-height: 230px;
 }
 
 .mini .mini-content .mini-box:hover {
@@ -1693,4 +1695,9 @@ preloader
   100% {
     opacity: 0;
   }
+}
+
+.bubble {
+  border-top-left-radius: 95% 90%;
+  border-top-right-radius: 95% 90%;
 }
